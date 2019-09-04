@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["www.mux.dev", "mux.dev"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://mux.com" }
+    }
+  ]
+}
